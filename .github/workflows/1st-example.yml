@@ -2,7 +2,7 @@ name: workflow
 on: workflow_despatch
 jobs:
   first-job
-    runs-on: ubuntu-20.04
+    runs-on:ubuntu-20.04
     steps:
       - name: Print greetings
         run: echo "Hello-World!"
